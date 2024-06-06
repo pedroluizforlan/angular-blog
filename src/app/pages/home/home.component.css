@@ -10,15 +10,16 @@ header{
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 20px;
+  height: 550px;
 }
 .articles__main{
-  width: 450px;
-  height: 600px;
+  width: 425px;
+  height: 550px;
   margin: 0 10px 0 10px  ;
 }
 .others__articles{
-  width: 450px;
-  height: 600px;
+  width: 425px;
+  height: 550px;
   margin: 0 10px 0 10px ;
 }

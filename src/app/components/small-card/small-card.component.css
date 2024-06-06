@@ -1,12 +1,12 @@
 .container__small-card-content {
   display:flex;
   flex-direction: row;
-  margin: 5px;
+  height: 110px;
 }
 
 .container__small-card >hr{
-  margin-bottom: 5px;
-
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 .small-card__photo {
@@ -15,26 +15,27 @@
 }
 
 .small-card__photo > img {
-  width: 100%;
-
-}
-
-.small-card__text {
-  width: 400px;
+  height: 110px;
 }
 
 .small-card__title > h1 > a{
   display:flex;
   justify-content: center;
   align-items: center;
-  font-size: 24px;
-
+  font-size: 15px;
+  font-weight: 500;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
 }
 
 .small-card__data > p {
-  font-size: 12px ;
-  margin-top: 20px;
+  font-size: 10px ;
+  margin-top: 5px;
   margin-bottom: 10px;
+  color: slategrey;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 

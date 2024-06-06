@@ -2,25 +2,22 @@
 
   <div class="big-card__photo">
     <img
-      src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/991px-Placeholder_view_vector.svg.png"
-      alt="" height="250px">
+      src="{{ photoCover }}"
+      alt="" height="239.0625px">
   </div>
 
   <div class="big-card__data">
-    <p>6 de Junho, 2024</p>
+    <p>{{ cardData }}</p>
   </div>
 
   <div class="big-card__title">
-    <h1><a href="#">Saiu uma nova versão do Angular</a></h1>
+    <h1><a href="#">{{ cardTitle }}</a></h1>
   </div>
 
   <div class="big-card__description">
     <p>
-      <a href="#">Lorem ipsum dolor sit amet. Ut repellendus aspernatur sed quis veniam et fugit recusandae At
-        voluptatum
-        consequatur est culpa consequatur ut enim sint non debitis voluptas. Cum porro aspernatur aut assumenda eaque
-        quo
-        voluptas dolorum et voluptatibus nulla est veniam provident.
+      <a href="#">
+        {{ cardDescription }}
       </a>
     </p>
   </div>
