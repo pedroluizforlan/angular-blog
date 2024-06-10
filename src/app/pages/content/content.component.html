@@ -1,2 +1,27 @@
-<app-menu-bar></app-menu-bar>
-<h1>teste</h1>
+<div class="container__menu">
+  <app-menu-bar></app-menu-bar>
+</div>
+
+<app-menu-title></app-menu-title>
+
+
+<div class="container__content">
+  <div class="container__content-photo">
+    <img src="{{ photoCover }}">
+  </div>
+
+  <hr/>
+    <div class="container__content-global-text">
+      <div class="container__content-title">
+        <p>{{ contentData }}</p>
+        <h1>{{ contentTitle }}</h1>
+      </div>
+      <div class="container__content-description">
+        <p> {{ contentDescription }}</p>
+      </div>
+      <div class="container__content-text">
+        <p> {{ contentText }}</p>
+      </div>
+    </div>
+  <hr/>
+</div>
