@@ -34,7 +34,7 @@ export const dataFake = [
       "Uma experiência marcante foi o desenvolvimento de uma aplicação de gestão de tarefas. No backend, utilizei Spring Boot para criar uma API robusta que gerenciava as operações CRUD. No frontend, com Angular, desenvolvi uma interface intuitiva e responsiva. A combinação dessas tecnologias não só proporcionou um desempenho excelente, mas também facilitou a manutenção e escalabilidade da aplicação. Trabalhar com Angular e Java tem sido uma jornada de constante aprendizado e evolução, demonstrando que essa stack é uma escolha sólida para o desenvolvimento de aplicações web complexas e de alta performance."
   },
   {"id":"4",
-    "photo":"https://png.pngtree.com/thumb_back/fw800/background/20230721/pngtree-vintage-computer-3d-model-image_3720110.jpg",
+    "photo":"https://www.e-recovery.com.br/wp-content/uploads/2022/06/cuidados-ao-vender-ou-doar-um-computador-antigo.jpg",
     "data":"15, abril de 2024",
     "title":"Transformando um Computador Antigo em Servidor",
     "description":"Reaproveitar um computador antigo para montar um servidor é uma solução eficiente e econômica, oferecendo benefícios como aprendizado prático, economia de recursos e utilidade contínua do hardware",
